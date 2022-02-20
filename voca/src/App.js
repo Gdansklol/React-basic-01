@@ -1,18 +1,17 @@
 import "./App.css";
 import Hello from "./component/Hello";
-//Do not forget import compont file.
 import Welcome from "./component/Welcome";
+import styles from "./App.module.css";
+//import World from "./component/World";
 
 function App() {
-  return (
+  return(
     <div className="App">
-      {/* //Write down the imported Hello Component.
-       //If there are no letters or numbers to enter, 
-       //it will self-close. <Hello /> */}
-      <Hello/>
-      <Welcome/>
-      <Hello/>
-      <Hello/>
+    <Hello />
+    {/* //<div className="box"/> */}
+    <div className={styles.box}>App</div>
+  
+    <Welcome />
     </div>
   );
 }
@@ -21,16 +20,39 @@ export default App;
 
 
 
-
-
-
-
-
 // import "./App.css";
+// import Hello from "./component/Hello";
+// //Do not forget import compont file.
+// import Welcome from "./component/Welcome";
 
 // function App() {
-//   const name = "Rafunsel";
-//   const yahoo = {
+//   return (
+//     <div className="App">
+//       {/* //Write down the imported Hello Component.
+//        //If there are no letters or numbers to enter, 
+//        //it will self-close. <Hello /> */}
+//       <Hello/>
+//       <Welcome/>
+//       <Hello/>
+//       <Hello/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+// // import "./App.css";
+
+// // function App() {
+// //   const name = "Rafunsel";
+// //   const yahoo = {
 //     name: "yahoo",
 //     url: "https://yahoo.com",
 //   }

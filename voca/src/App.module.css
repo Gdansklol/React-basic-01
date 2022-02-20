@@ -1,0 +1,9 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    margin-top:15px ;
+    opacity: 1.5rem;
+    text-align: center;
+    justify-content: center;
+}
