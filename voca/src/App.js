@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     <Hello />
     {/* //<div className="box"/> */}
-    <div className={styles.box}>App</div>
+    <div className={styles.box}>Funny App</div>
   
     <Welcome />
     </div>
